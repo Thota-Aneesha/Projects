@@ -1,8 +1,0 @@
-fastapi
-uvicorn
-pydantic
-langchain
-streamlit
-openai
-streamlit_chat
-python-dotenv
