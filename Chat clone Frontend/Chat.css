@@ -1,0 +1,63 @@
+/* src/components/Chat.css */
+
+.chat-container {
+    background-color: rgba(248, 248, 248, 0.8); /* semi-transparent white background */
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  .space-between {
+    margin-bottom: 30px; /* Adjust the margin as needed */
+  }
+  
+  .input-group {
+    position: relative;
+  }
+  
+  .input-group input[type="text"] {
+    padding-left: 80px; /* Space for the left icon */
+    padding-right: 40px; /* Space for the right icon */
+    width: 1000px; /* Increase width */
+    height: 60px; /* Increase height */
+    font-size: 16px; /* Increase font size */
+  }
+  
+  .input-group .input-group-prepend,
+  .input-group .input-group-append {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    padding: 0;
+    z-index: 10;
+  }
+  
+  .input-group .input-group-prepend {
+    left: 10px;
+  }
+  
+  .input-group .input-group-append {
+    right: 10px;
+  }
+  
+  .input-group .input-group-prepend i,
+  .input-group .input-group-append i {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .custom-file-input {
+    display: none;
+  }
+  
+  .suggestions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .suggestions .btn {
+    margin: 5px;
+  }
+  
